@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+
+{% block header %}
+  <h1>{% block title %}LuckyDraw!{% endblock %}</h1>
+  <h1>{{ title }}</h1>
+{% endblock %}
+
+{% block content %}
+    <h1> First prize: {{ title1 }}</h1>
+    <h1> Second prize: {{ title2 }}</h1>
+    <h1> Third prize: {{ title3 }}</h1>
+{% endblock %}

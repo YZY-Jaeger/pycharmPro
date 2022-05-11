@@ -1,0 +1,21 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>{% block title %}Configuration{% endblock %}</h1>
+{% endblock %}
+
+{% block content %}
+  <form method="post">
+
+    <label for="numOfF">Number of First Prize</label>
+    <input name="numOfF" id="numOfF" required>
+    <br />
+    <label for="numOfS">Number of Second Prize</label>
+    <input name="numOfS" id="numOfS" required>
+    <br />
+    <label for="numOfT">Number of Third Prize</label>
+    <input name="numOfT" id="numOfT" required>
+    <br />
+    <input type="submit" value="draw">
+  </form>
+{% endblock %}
