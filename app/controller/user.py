@@ -5,7 +5,7 @@ from app.models.student import Student
 from app.models.teacher import Teacher
 from app.models.jaeger import Jaeger
 from app.models.luckyDrawer import LuckyDrawer
-from sqlalchemy import or_, and_, all_, any_
+from sqlalchemy import or_, and_, all_, any_  
 
 userBP = Blueprint('user', __name__)
 
